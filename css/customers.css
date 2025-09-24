@@ -1,0 +1,108 @@
+
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: rgb(0, 123, 255);
+            color: white;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .editmodel {
+            display: none;
+            background: #eef;
+            padding: 10px;
+        }
+        .edit-btn, .delete-btn {
+            padding: 6px 12px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+        }
+        .edit-btn {
+            background-color: #28a745;
+            color: white; 
+        }
+        .delete-btn { 
+            background-color: #dc3545; 
+            color: white;
+         }
+        .search-btn, .add-btn {
+            padding: 8px 12px;
+            border: none;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        input[name="search_keyword"] {
+            width: 300px;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .home-btn, .report-btn {
+            background-color: rgb(0, 123, 255);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .edit-btn, .delete-btn {
+    min-width: 70px;
+    text-align: center;
+}
+.top-bar-btn {
+    display: flex;
+    justify-content: space-between; /* or center if you prefer */
+    align-items: center;
+    padding: 10px 20px;
+ 
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.top-bar-btn .report-btn,
+.top-bar-btn .home-btn {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.top-bar-btn .report-btn:hover,
+.top-bar-btn .home-btn:hover {
+    background-color: white;
+    border-color: #0056b3;
+    color: #0056b3;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

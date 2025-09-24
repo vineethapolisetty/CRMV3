@@ -1,0 +1,56 @@
+.form-container {
+      max-width: 500px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color:rgb(0, 123, 255);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: rgb(0, 123, 255);
+    }
+     .dep-btn {
+  width: 100%;         /* Makes the dropdown full width of its container */
+  height: 40px;        /* Increases the height of the dropdown */
+  font-size: 16px;     /* Increases the text size inside dropdown */
+  padding: 8px;        /* Adds inner space for better appearance */
+  box-sizing: border-box;
+}
+
+.dep-btn option {
+  font-size: 16px;     /* Increases the option text size */
+}
+
+    

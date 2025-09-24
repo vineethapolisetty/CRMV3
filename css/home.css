@@ -1,0 +1,36 @@
+.sidebar {
+  width: 220px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.sidebar.visible {
+  display: block;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 12px;
+}
+
+.sidebar a.menu-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a.menu-link:hover {
+  text-decoration: underline;
+}
